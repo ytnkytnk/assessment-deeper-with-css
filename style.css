@@ -42,6 +42,10 @@ p {
   line-height: 1.5;
 }
 
+article div section p {
+  font-size: 14px;
+}
+
 /* Links */
 a:link {
   color: #d62828;
@@ -60,6 +64,7 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  margin: auto;
 }
 
 .image-circle {
@@ -75,4 +80,26 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/* Groups */
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.group-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 30px;
+}
+
+.portfolio-art {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  margin: auto;
 }
